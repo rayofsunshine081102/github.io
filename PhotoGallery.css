@@ -55,16 +55,6 @@ background-position: center center;
 background-size: cover;
 }
 
-a {
-  background-color: pink;
-  box-shadow: 0 5px 0 purple;
-  color: white;
-  padding: 1em 1.5em;
-  position: bottom;
-  text-decoration: none;
-  text-transform: uppercase;
-}
-
 a:hover {
   background-color: #ccffcc;
 }
@@ -83,19 +73,6 @@ body {
   align-items: bottom;
   height: 75vh;
   
-}
-
-
-a {
-background-color: pink;
-box-shadow: 0 5px 0 purple;
-color: white;
-padding: 1em 1.5em;
-position: absolute;
-bottom: 0;
-right: 0;
-text-decoration: none;
-text-transform: uppercase;
 }
 
 img {
