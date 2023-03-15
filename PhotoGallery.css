@@ -1,44 +1,8 @@
-/* CSS RULE OF SPECIFICITY /
-/ Element Selector */
-body {
-font-family: Verdana, Tahoma, 'Trebuchet MS', sans-serif;
-color: green;
-background-color: #FFC0CB;
+h1 {
+  font-weight: bold;
+  font-family: Jenson, Baskerville, Cambria, Serif;
 }
 
-/* Class Selector */
-.container {
-margin: 0 auto;
-padding: 20px;
-max-width: 800px;
-}
-
-/* ID Selector */
-header {
-text-align: center;
-margin-bottom: 20px;
-}
-
-/* Pseudo-class Selector */
-h1:hover,
-h2:hover {
-  color: #FF69B4;
-}
-
-
-/* CSS COMBINATORS /
-/ Descendant Selector */
-main p {
-text-indent: 50px;
-}
-
-/* Adjacent Sibling Selector */
-h2 + div {
-margin-top: 10px;
-}
-
-/* SPECIFICITY AND THE CASCADE /
-/ Increase specificity for h1 in header */
 header h1,h2 {
 font-weight: bold;
 font-family: Jenson, Baskerville, Cambria, serif;
@@ -47,39 +11,56 @@ text-align:center;
 text-shadow:7px 1px 3px white;
 }
 
-/* CSS BACKGROUND PROPERTIES */
+
 body {
-background-image: url('https://i.pinimg.com/564x/0a/ba/40/0aba409f8e3907af5f0991567ce6b186.jpg');
-background-repeat: no-repeat;
-background-position: center center;
-background-size: cover;
+  background-image: url('https://i.pinimg.com/564x/0a/ba/40/0aba409f8e3907af5f0991567ce6b186.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
 }
 
-a:hover {
-  background-color: #ccffcc;
+/* Pseudo-class Selector */
+h1:hover {
+  color: #FF69B4;
 }
-
-
-a:active {
-  box-shadow: none;
-  top: 5px;
-}
-
-
-/* Non-Demo Styles */
-body {
+.parent-container {
   display: flex;
-  justify-content: bottom;
-  align-items: bottom;
-  height: 75vh;
-  
+  flex-wrap: wrap;
+  justify-content: space-evenly; /* Adjusted property */
 }
+
 
 img {
   display: inline-block;
-  width: 300px;
-  height:300px;
+  width: 250px;
+  height: 250px;
   vertical-align: middle;
   border-radius: 15px;
-  margin: 0px 50px 0px 50px; /* Adjusted margin */
+  margin: 0.5px; /* Adjusted margin */
+}
+
+a {
+  margin: 0 10px;
+  display: block;
+  color: green;
+}
+
+header{
+  font-weight: bold;
+  color: green;
+  font-family: Jenson, Baskerville, Cambria, serif;
+  font: small-caps bold 2.5em/1.25em Georgia, serif;
+  text-align: center;
+  text-shadow: 7px 1px 3px white;
+}
+
+.container {
+  text-align: center;
+}
+
+
+.sizeManipulation:hover {
+  font-size: 21px;
+  font-weight: bold;
+  color: #FF69B4;
 }
