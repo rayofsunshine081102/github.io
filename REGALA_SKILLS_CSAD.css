@@ -109,3 +109,9 @@ img {
   border-radius: 15px;
   margin: 0.5px; /* Adjusted margin */
 }
+
+.parent-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly; /* Adjusted property */
+}
