@@ -32,8 +32,8 @@ h1:hover {
 
 img {
   display: inline-block;
-  width: 500px;
-  height: 500px;
+  width: 250px;
+  height: 250px;
   vertical-align: middle;
   border-radius: 15px;
   margin: 0.5px; /* Adjusted margin */
