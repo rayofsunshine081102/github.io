@@ -100,3 +100,12 @@ a {
   display: block;
   color: green;
 }
+
+img {
+  display: inline-block;
+  width: 250px;
+  height: 250px;
+  vertical-align: middle;
+  border-radius: 15px;
+  margin: 0.5px; /* Adjusted margin */
+}
